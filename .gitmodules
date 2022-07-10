@@ -1,0 +1,6 @@
+[submodule "Assets/Plugins/K10"]
+	path = Assets/Plugins/K10
+	url = https://github.com/k10czar/K10.git
+[submodule "Assets/Plugins/UnityCompileDebugger"]
+	path = Assets/Plugins/UnityCompileDebugger
+	url = https://github.com/k10czar/UnityCompileDebugger.git
