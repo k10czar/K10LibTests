@@ -60,6 +60,7 @@ MonoBehaviour:
   _position: {x: 0, y: 0, z: 0}
   _rotation: {x: 0, y: 0, z: 0}
   _dontDestroyOnLoad: 1
+  _elementsPerFrame: 0
 --- !u!114 &-1037554848755210050
 MonoBehaviour:
   m_ObjectHideFlags: 0
