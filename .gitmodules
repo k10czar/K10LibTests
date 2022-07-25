@@ -4,3 +4,6 @@
 [submodule "Assets/Plugins/UnityCompileDebugger"]
 	path = Assets/Plugins/UnityCompileDebugger
 	url = https://github.com/k10czar/UnityCompileDebugger.git
+[submodule "Assets/Editor Default Resources/K10DefaultIcons"]
+	path = Assets/Editor Default Resources/K10DefaultIcons
+	url = https://github.com/k10czar/K10-EditorIcons.git

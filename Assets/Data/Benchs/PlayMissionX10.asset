@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4434157458964127052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9137f5e45ead1c743ab1059968531146, type: 3}
+  m_Name: actions[3]_K10.Automation.Loop
+  m_EditorClassIdentifier: 
+  _repetitions: 10
+  _actions:
+  - {fileID: 11400000, guid: c8f60e40c9170ab4aa140321dea8674b, type: 2}
+  - {fileID: 11400000, guid: 914db6ab6e9d4d94d8bb022ccd03768d, type: 2}
+  - {fileID: 11400000, guid: 7aabf726d97998641a29967efd3281cd, type: 2}
+  - {fileID: 11400000, guid: 914db6ab6e9d4d94d8bb022ccd03768d, type: 2}
+--- !u!114 &-3804004255537632986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2718e91c945c0834fb6093628117ab2a, type: 3}
+  m_Name: actions[2]_Unity.Automation.WaitForEndOfFrameOperation
+  m_EditorClassIdentifier: 
+--- !u!114 &-3169162953203355638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918c656c95302104aa0db8e5ebf62db0, type: 3}
+  m_Name: actions[0]_Unity.Automation.ChangeScene
+  m_EditorClassIdentifier: 
+  _scene: Galaxy
+--- !u!114 &-1916904902183249428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6455e4ce8baed1444a410e18d9a01782, type: 3}
+  m_Name: actions[1]_Unity.Automation.InstantiateOperation
+  m_EditorClassIdentifier: 
+  _instances: 1
+  _prefab: {fileID: 1878280754056923135, guid: 15bfc73ad70cb2949bf055b02c363697, type: 3}
+  _position: {x: 0, y: 0, z: 0}
+  _rotation: {x: 0, y: 0, z: 0}
+  _dontDestroyOnLoad: 1
+--- !u!114 &-1037554848755210050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918c656c95302104aa0db8e5ebf62db0, type: 3}
+  m_Name: actions[0]_Unity.Automation.ChangeSceneOperation
+  m_EditorClassIdentifier: 
+  _scene: Galaxy
+--- !u!114 &-620635004876660742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918c656c95302104aa0db8e5ebf62db0, type: 3}
+  m_Name: actions[0]_Unity.Automation.ChangeSceneOperation
+  m_EditorClassIdentifier: 
+  _scene: Galaxy
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9137f5e45ead1c743ab1059968531146, type: 3}
+  m_Name: PlayMissionX10
+  m_EditorClassIdentifier: 
+  _repetitions: 1
+  _actions:
+  - {fileID: -1916904902183249428}
+  - {fileID: -3804004255537632986}
+  - {fileID: -4434157458964127052}
+  - {fileID: 11400000, guid: c8f60e40c9170ab4aa140321dea8674b, type: 2}
